@@ -1,0 +1,23 @@
+.authNavWrap {
+  display: flex;
+  gap: 10px;
+}
+
+.link {
+  display: flex;
+  padding: 10px 15px;
+  text-decoration: none;
+  max-width: 70px;
+  width: 100%;
+  color: black;
+  background-color: transparent;
+  border: 1px solid rgb(110, 110, 110);
+  border-radius: 5px;
+  transition: all 0.3s;
+  font-size: 20px;
+}
+
+.active {
+  color: white;
+  background-color: rgb(144, 178, 242);
+}
